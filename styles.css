@@ -43,13 +43,20 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  double {border-style: double;}
+ 
 }
 p {
   color :red;
+  .p class ="dotted">A dotted border.</p>
 }
 div {
   width: 100px;
+  margin: 10px;
   height: 100px;
   background: rgb(255, 0, 221);
   transition: width 2s;
+}
+div:hover {
+  height: 300px;
 }
