@@ -47,3 +47,9 @@ h1 {
 p {
   color :red;
 }
+div {
+  width: 100px;
+  height: 100px;
+  background: rgb(255, 0, 221);
+  transition: width 2s;
+}
